@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACV,MAAM,EAAE,OAAO;EAEf,0BAAa;IACT,OAAO,EAAE,MAAM;IAEf,gCAAQ;MACJ,KAAK,EAAE,OAAO",
+"sources": ["MedicalFacility.scss"],
+"names": [],
+"file": "MedicalFacility.css"
+}

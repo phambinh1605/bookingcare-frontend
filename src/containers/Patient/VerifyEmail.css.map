@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,sCAAe;EACX,SAAS,EAAO,IAAI;EACpB,WAAW,EAAK,GAAG;EACnB,UAAU,EAAM,IAAI;EACpB,UAAU,EAAM,MAAM;EACtB,cAAc,EAAE,SAAS;EACzB,KAAK,EAAW,GAAG",
+"sources": ["VerifyEmail.scss"],
+"names": [],
+"file": "VerifyEmail.css"
+}

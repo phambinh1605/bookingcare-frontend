@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+💻 Doctor Appointment Booking - Frontend
 
-## Available Scripts
+📌 Overview
 
-In the project directory, you can run:
+This is the frontend of the "Doctor Appointment Booking" web application, built with React.js and Redux to create a dynamic user interface and manage global state efficiently.
 
-### `npm start`
+⚙️ Technologies Used
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+React.js: JavaScript library for building user interfaces.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Redux: State management library for managing global app state.
 
-### `npm test`
+Bootstrap 4: CSS framework for fast and responsive UI design.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Reactstrap: Component library combining React and Bootstrap.
 
-### `npm run build`
+🚀 Installation Guide
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/username/frontend-repo.git
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+2. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd frontend-repo
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Run the app:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The application will run at:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+📍 http://localhost:3000
 
-## Learn More
+🌟 Key Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+• User registration and login
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+• View list of doctors and medical facilities
 
-### Code Splitting
+• Book appointments with doctors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+• Admin features: manage doctors and patient appointments
 
-### Analyzing the Bundle Size
+📁 Project Structure
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+    📂 public/     // Static assets (images, favicon, etc.)
 
-### Making a Progressive Web App
+    📂 src/        // React components and source code
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+    📂 styles/     // SCSS files for UI styling
 
-### Advanced Configuration
+    📂 redux/      // Redux store and state management
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+🎥 Demo
 
-### Deployment
+[https://phambinh321.healthcare]
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
+🐞 Common Issues
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. App not displaying
+
+• Make sure all dependencies are installed:
+
+npm install
+
+2. Cannot connect to backend
+
+• Ensure the backend server is running at:
+http://localhost:8080
+
